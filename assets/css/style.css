@@ -1,3 +1,93 @@
 
 
 /* font-family: 'Asul', sans-serif; */
+
+body{
+font-family: 'Asul', sans-serif;
+background-image: url("../images/baseballs.jpg");
+opacity: .9;
+/* filter: alpha(opacity=50); */
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+header{
+    padding: 10px 20px 10px 20px;
+    font-family: 'Asul', sans-serif;
+    font-size: 500%;
+    font-weight: 200;
+    text-align: center;
+}
+
+#logo{
+    font-family: 'Asul', sans-serif;
+}
+
+.container{
+    font-family: 'Asul', sans-serif;
+}
+
+.questionsA{
+    font-family: 'Asul', sans-serif;
+    padding: 0px auto;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.playgame{
+ 
+    font-family: 'Asul', sans-serif;
+}
+
+.answerA{
+    font-family: 'Asul', sans-serif;
+    padding: 5px auto;
+    font-size: 16px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.answerT{
+    padding: 0px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.timer{
+    height: 30px;
+    width: 200px;
+    background-color:white;
+    padding: 3px 0px;
+    margin: 20px auto;
+    text-align: center;
+}
+.timePassed{
+    height: 100%;
+    width: 2px;
+    background-color: red;
+}
+
+.results{
+    text-align: left;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+}
+
+.answer {
+    padding: 5px;    
+}
+
+.answer:hover, .next-game:hover {
+    cursor: pointer;
+}
+
+.play-game:hover {
+    cursor: pointer;
