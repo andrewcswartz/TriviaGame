@@ -1,6 +1,6 @@
-var correct = 0:
+var correct = 0;
 var wrong = 0;
-var highScore = 0:
+var highScore = 0;
 
 var intervalId;
 var timePassed= 0;
