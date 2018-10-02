@@ -1,93 +1,69 @@
 
 
-/* font-family: 'Asul', sans-serif; */
-
-body{
-font-family: 'Asul', sans-serif;
-background-image: url("../images/baseballs.jpg");
-opacity: .9;
-/* filter: alpha(opacity=50); */
-background-repeat: no-repeat;
-background-size: cover;
+body {
+	margin: 0;
+  background: #000;   
+  background-image: url("../images/Pat1.jpg");
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    transition: 1s opacity;
+}
+.stopfade {
+    opacity: .5;
 }
 
-header{
-    padding: 10px 20px 10px 20px;
-    font-family: 'Asul', sans-serif;
-    font-size: 500%;
-    font-weight: 200;
-    text-align: center;
+#andrews { 
+	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+	font-weight:100; 
+  background: rgba(0,0,0,0.3);
+
+	color: white;
+	padding: 2rem;
+	width: 33%;
+	margin:2rem;
+	float: right;
+	font-size: 1.2rem;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+#andrews button { 
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+#andrews button:hover { 
+   background: rgba(0,0,0,0.5);
 }
 
-#logo{
-    font-family: 'Asul', sans-serif;
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background; 
 }
-
-.container{
-    font-family: 'Asul', sans-serif;
+a:hover{
+  background:rgba(0,0,0,0.9);
 }
-
-.questionsA{
-    font-family: 'Asul', sans-serif;
-    padding: 0px auto;
-    font-size: 25px;
-    text-align: center;
-    margin: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
-    max-width: 400px;
-    margin: 10px auto;
-}
-
-.playgame{
- 
-    font-family: 'Asul', sans-serif;
-}
-
-.answerA{
-    font-family: 'Asul', sans-serif;
-    padding: 5px auto;
-    font-size: 16px;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.answerT{
-    padding: 0px;
-    text-align: left;
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-
-
-.timer{
-    height: 30px;
-    width: 200px;
-    background-color:white;
-    padding: 3px 0px;
-    margin: 20px auto;
-    text-align: center;
-}
-.timePassed{
-    height: 100%;
-    width: 2px;
-    background-color: red;
-}
-
-.results{
-    text-align: left;
-    margin: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 5px;
-}
-
-.answer {
-    padding: 5px;    
-}
-
-.answer:hover, .next-game:hover {
-    cursor: pointer;
-}
-
-.play-game:hover {
-    cursor: pointer;}
